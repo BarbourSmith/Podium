@@ -397,7 +397,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 1200
+                            "ioValue": 1060
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -470,7 +470,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 10000
+                                    "ioValue": 8000
                                 }
                             ],
                             "description": "Creates a new circle."
@@ -582,8 +582,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.6772486772486772,
-                    "y": 0.8050139275766017,
+                    "x": 0.6792328042328042,
+                    "y": 0.7799442896935932,
                     "uniqueID": 1740318704322,
                     "ioValues": [
                         {
@@ -592,7 +592,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 4760
+                            "ioValue": 3800
                         },
                         {
                             "name": "yDist",
