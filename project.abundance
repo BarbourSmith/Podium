@@ -79,7 +79,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 500
+                                    "ioValue": 400
                                 }
                             ],
                             "description": "Creates a new circle."
@@ -244,7 +244,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 300
+                                    "ioValue": 250
                                 }
                             ],
                             "description": "Creates a new circle."
@@ -397,7 +397,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 1500
+                            "ioValue": 1200
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -592,7 +592,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 4700
+                            "ioValue": 4760
                         },
                         {
                             "name": "yDist",
