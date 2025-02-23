@@ -14,167 +14,19 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1740318434180,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1740318533957
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
             "atomType": "Molecule",
-            "name": "Base",
-            "x": 0.3082010582010582,
-            "y": 0.5487465181058496,
-            "uniqueID": 1740318444531,
-            "ioValues": [],
-            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.98,
-                    "y": 0.5,
-                    "uniqueID": 1740318444769,
-                    "ioValues": [],
-                    "description": "Connect geometry here to make it available in the next level up. "
-                },
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 0.19642857142857142,
-                    "y": 0.532033426183844,
-                    "uniqueID": 1740318452872,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 500
-                        }
-                    ],
-                    "description": "Creates a new circle."
-                },
-                {
-                    "atomType": "Move",
-                    "name": "Move",
-                    "x": 0.31746031746031744,
-                    "y": 0.2785515320334262,
-                    "uniqueID": 1740318468052,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1740318452872
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": -100
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
-                },
-                {
-                    "atomType": "Move",
-                    "name": "Move",
-                    "x": 0.28835978835978837,
-                    "y": 0.7075208913649026,
-                    "uniqueID": 1740318476408,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1740318452872
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": 100
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
-                },
-                {
-                    "atomType": "ShrinkWrap",
-                    "name": "Shrink Wrap",
-                    "x": 0.44576719576719576,
-                    "y": 0.5571030640668524,
-                    "uniqueID": 1740318510880,
-                    "ioValues": [
-                        {
-                            "name": "Shape 1",
-                            "ioValue": 1740318476408
-                        },
-                        {
-                            "name": "Shape 2",
-                            "ioValue": 1740318468052
-                        },
-                        {
-                            "name": "Shape 3",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "Shape 1",
-                            "ioValue": 1740318476408
-                        },
-                        {
-                            "name": "Shape 2",
-                            "ioValue": 1740318468052
-                        },
-                        {
-                            "name": "Shape 3",
-                            "ioValue": ""
-                        }
-                    ],
-                    "description": "Joins two or more drawings into a single sketch by filling in the space between them. Also called 'hull'"
-                }
-            ],
-            "allConnectors": [
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 1740318452872,
-                    "ap2ID": 1740318468052
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 1740318452872,
-                    "ap2ID": 1740318476408
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape 2",
-                    "ap2Primary": false,
-                    "ap1ID": 1740318468052,
-                    "ap2ID": 1740318510880
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape 1",
-                    "ap2Primary": false,
-                    "ap1ID": 1740318476408,
-                    "ap2ID": 1740318510880
-                }
-            ],
-            "fileTypeVersion": 1,
-            "compiledBom": {}
-        },
-        {
-            "atomType": "Molecule",
             "name": "Podum",
-            "x": 0.4391534391534392,
-            "y": 0.6657381615598886,
+            "x": 0.3664021164021164,
+            "y": 0.5041782729805014,
             "uniqueID": 1740318533957,
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -186,7 +38,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1740318534635,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1740318711820
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -548,8 +405,8 @@
                 {
                     "atomType": "Loft",
                     "name": "Loft",
-                    "x": 0.5198412698412698,
-                    "y": 0.35097493036211697,
+                    "x": 0.5211640211640212,
+                    "y": 0.40111420612813375,
                     "uniqueID": 1740318598708,
                     "ioValues": [
                         {
@@ -613,7 +470,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 4000
+                                    "ioValue": 10000
                                 }
                             ],
                             "description": "Creates a new circle."
@@ -679,7 +536,7 @@
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": -500
+                                    "ioValue": 500
                                 },
                                 {
                                     "name": "zDist",
@@ -725,8 +582,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.6904761904761905,
-                    "y": 0.7520891364902507,
+                    "x": 0.6825396825396826,
+                    "y": 0.766016713091922,
                     "uniqueID": 1740318704322,
                     "ioValues": [
                         {
@@ -735,7 +592,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 4700
                         },
                         {
                             "name": "yDist",
@@ -751,7 +608,7 @@
                 {
                     "atomType": "Intersection",
                     "name": "Intersection",
-                    "x": 0.7619047619047619,
+                    "x": 0.7658730158730159,
                     "y": 0.3203342618384401,
                     "uniqueID": 1740318711820,
                     "ioValues": [
@@ -809,15 +666,30 @@
                     "ap2Primary": false,
                     "ap1ID": 1740318704322,
                     "ap2ID": 1740318711820
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1740318711820,
+                    "ap2ID": 1740318534635
                 }
             ],
             "fileTypeVersion": 1,
-            "compiledBom": {}
+            "compiledBom": []
         }
     ],
-    "allConnectors": [],
+    "allConnectors": [
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1740318533957,
+            "ap2ID": 1740318434180
+        }
+    ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
-    "compiledBom": {},
+    "compiledBom": [],
     "filetypeVersion": 1
 }
